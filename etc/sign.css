@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(233, 233, 233);
+}
+
+nav {
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav img {
+  width: 28%;
+  height: 100%;
+}
+
+.clear_box {
+  height: 30px;
+}
+
+.sign_form {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 50%;
+}
+
+.sign_id {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign_id input {
+  width: 60%;
+  height: 40px;
+  margin-bottom: 6px;
+  padding: 0 20px;
+}
+.sign_id i {
+  width: 60%;
+  height: 20px;
+  font-size: 10px;
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.sign_id i p {
+  font-weight: normal;
+  margin-left: 5px;
+}
+.sign_pawd {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign_pawd input {
+  width: 60%;
+  height: 40px;
+  margin-bottom: 6px;
+  padding: 0 20px;
+}
+.sign_pawd i {
+  width: 60%;
+  height: 20px;
+  font-size: 10px;
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.sign_pawd i p {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.sign_email {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign_email input {
+  width: 60%;
+  height: 40px;
+  margin-bottom: 6px;
+  padding: 0 20px;
+}
+.sign_email i {
+  width: 60%;
+  height: 20px;
+  font-size: 10px;
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.sign_email i p {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.sign_name {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign_name input {
+  width: 60%;
+  height: 40px;
+  margin-bottom: 6px;
+  padding: 0 20px;
+}
+.sign_name i {
+  width: 60%;
+  height: 20px;
+  font-size: 10px;
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.sign_name i p {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.sign_submit {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign_submit input {
+  width: 60%;
+  height: 40px;
+  margin-bottom: 6px;
+  color: white;
+  background-color: rgb(0, 0, 82);
+  border: none;
+}
+.sign_submit input:hover {
+  background-color: rgb(173, 173, 173);
+  color: rgb(0, 0, 82);
+  font-weight: bold;
+}

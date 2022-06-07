@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(233, 233, 233);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* nav */
+nav {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.nav_logo {
+  width: 20%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+.nav_logo a img {
+  width: 100%;
+  height: 100%;
+}
+.nav_search {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.nav_search input {
+  width: 60%;
+  height: 50%;
+  margin-right: 20px;
+}
+.nav_login {
+  width: 15%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+/* notice */
+#notice {
+  height: 200px;
+  border: 1px solid red;
+}
+.notice_title {
+  height: 30%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.4px solid rgb(179, 179, 179);
+}
+.notice_desc {
+  height: 30%;
+  font-size: 16px;
+  /* margin-left: 60px; */
+  display: flex;
+  align-items: center;
+  border-bottom: 0.4px solid rgb(179, 179, 179);
+}
+.notice_desc h4 > a {
+  color: rgb(83, 83, 83);
+}
+.notice_desc:hover a {
+  color: rgb(0, 0, 82);
+}
+
+/* 자주 묻는 질문 faq */
+
+/* 1:1 문의 */
+#inquiry {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+.user_inquiry {
+  width: 50%;
+  height: 90%;
+}
+.user_box {
+  width: 90%;
+  height: 70%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 82);
+}
+.user_desc {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user_desc i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.company_inquiry {
+  width: 50%;
+  height: 90%;
+  /* border: 1px solid green; */
+}
+.company_box {
+  width: 90%;
+  height: 70%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 82);
+}
+.company_desc {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company_desc i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+  height: 250px;
+  color: white;
+  background-color: black;
+}
+.f_desc {
+  width: 90%;
+  height: 35%;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.3px solid gray;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.f_desc h3 {
+  font-size: 25px;
+}
+.f_desc p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.f_address {
+  height: 30%;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+  padding-top: 30px;
+  /* border: 1px solid red; */
+}
+.f_corp {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  /* border: 1px solid red; */
+}
+.f_sns {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+.f_sns a {
+  width: 17%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(148, 148, 148);
+  border-radius: 50%;
+}
+.f_sns a:hover {
+  background-color: white;
+}
